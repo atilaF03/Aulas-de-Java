@@ -1,0 +1,43 @@
+package com.mycompany.clientes;
+
+public class Clientes {
+
+    private String Nome;
+    private int idade;
+    private Dogs Pet;
+
+    public Clientes(String Nome, int idade, Dogs Pet) {
+        this.Nome = Nome;
+        this.idade = idade;
+        this.Pet = Pet;
+    }
+
+    public String getNome() {
+        return Nome;
+    }
+
+    public void setNome(String Nome) {
+        this.Nome = Nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public Dogs getPet() {
+        return Pet;
+    }
+
+    public void setPet(Dogs Pet) {
+        this.Pet = Pet;
+    }
+
+    
+
+    
+
+}
