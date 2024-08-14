@@ -1,0 +1,22 @@
+
+
+package com.mycompany.main;
+
+
+public class Main {
+
+    public static void main(String[] args) {
+        Processador  processador = new Processador("2.0 MGZ","Amd","am5");
+        Memory memoria = new Memory("250 gb","kingz","sata 3");
+        System.out.println("o processador é "+processador.getMarca());
+        System.out.println("A marca é: "+processador.getModelo());
+        System.out.println(" o modelo do processadoré "+processador.getModelo());
+        
+        System.out.println("a capacidade é "+memoria.getCapacidade());
+        System.out.println("a marca é "+memoria.getMarca());
+        System.out.println("o modelo é "+memoria.getModelo());
+             
+            
+       
+    }
+}
