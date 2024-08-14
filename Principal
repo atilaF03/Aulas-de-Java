@@ -1,0 +1,17 @@
+package com.mycompany.clientes;
+
+public class Principal {
+
+    public static void main(String[] args) {
+        Dogs pet = new Dogs("Spike", 15, "Labrador");
+        Clientes clientes = new Clientes("Atila", 14, pet);
+
+        System.out.println("o nome do cliente é:" + clientes.getNome());
+        System.out.println("'a idade do cliente é:" + clientes.getIdade());
+        System.out.println(" o nome do pet é: " + clientes.getPet().getNome());
+        System.out.println(" a idade  do pet é:" + clientes.getPet().getIdade());
+        System.out.println("A raça do cachorro é:" + clientes.getPet().getRaca());
+
+    }
+
+}
