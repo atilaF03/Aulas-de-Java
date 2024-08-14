@@ -1,0 +1,22 @@
+
+package com.mycompany.main;
+
+public class Memory extends Componentes{
+    private String capacidade;
+
+    public Memory(String capacidade, String marca, String Modelo) {
+        super(marca, Modelo);
+        this.capacidade = capacidade;
+        
+    }
+    
+
+    public String getCapacidade() {
+        return capacidade;
+    }
+
+    public void setCapacidade(String capacidade) {
+        this.capacidade = capacidade;
+    }
+    
+}
