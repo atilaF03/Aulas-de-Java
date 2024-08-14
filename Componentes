@@ -1,0 +1,14 @@
+package com.mycompany.atividade;
+
+
+public class Atividade {
+
+    public static void main(String[] args) {
+        Clientes clientes = new Clientes("24/01","pix","joão",19);
+        Funcionario func= new  Funcionario("1234","adm",2500.0,"jonas",19);
+        
+        System.out.println("o nome do cliente é:"+clientes.getNome());
+        System.out.println("a idade do cliente é:"clientes.getIdade());
+     
+    }
+}
